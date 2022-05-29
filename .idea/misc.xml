@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_home.xml" value="0.1265625" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/drawable/ic_outline_water_drop_24.xml" value="0.14" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/drawable/ic_outline_water_drop_48.xml" value="0.164" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout-v29/other_weather_values.xml" value="0.2734375" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/content_home_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/curent_wind_item.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/current_humidity_item.xml" value="0.2" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/current_pressure_item.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/current_sunrise_time.xml" value="0.2734375" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/current_sunset_time.xml" value="0.2734375" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/current_weather_layout.xml" value="0.2734375" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/hourly_weather_item.xml" value="0.72" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/hourly_weather_layout.xml" value="0.205859375" />
+        <entry key="..\:/Users/ABRA/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/other_weather_values.xml" value="0.22456140350877193" />
       </map>
     </option>
   </component>

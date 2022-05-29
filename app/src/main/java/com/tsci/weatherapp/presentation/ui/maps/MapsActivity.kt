@@ -1,9 +1,10 @@
 package com.tsci.weatherapp.presentation.ui.maps
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.tsci.weatherapp.databinding.ActivityMapsBinding
-import dagger.hilt.android.AndroidEntryPoint
 
 class MapsActivity : AppCompatActivity() {
 
@@ -14,4 +15,11 @@ class MapsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
     }
 
+
+    companion object {
+        fun start(context: Context) {
+            val intent = Intent(context, MapsActivity::class.java)
+            context.startActivity(intent)
+        }
+    }
 }

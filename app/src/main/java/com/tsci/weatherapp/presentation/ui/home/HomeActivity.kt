@@ -1,5 +1,7 @@
 package com.tsci.weatherapp.presentation.ui.home
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.tsci.weatherapp.databinding.ActivityHomeBinding
@@ -13,5 +15,12 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
         super.onCreate(savedInstanceState)
+    }
+
+    companion object {
+        fun start(context: Context) {
+            val intent = Intent(context, HomeActivity::class.java)
+            context.startActivity(intent)
+        }
     }
 }

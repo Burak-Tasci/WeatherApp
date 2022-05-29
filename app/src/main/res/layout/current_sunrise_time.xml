@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/sunrise_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:drawableStart="@drawable/ic_baseline_wb_sunny_48"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:padding="@dimen/recyclerview_item_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:text="Sunrise time:" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/general_margin"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:text="05:47" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sunrise_text"
+            android:layout_marginStart="@dimen/general_margin"
+            android:layout_marginEnd="@dimen/general_margin" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
